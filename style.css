@@ -1,0 +1,65 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'public sans', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li a{
+    padding: 11px 6px;
+    margin-left: 3rem;
+    transition: 0.3s ease-in-out;
+    font-size: 1.5rem;
+}
+
+.menu li a:hover{
+    background-color: #5BC241;
+    color: #ffffff;
+}
+
+.menu li a.cadastro{
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-left: 2rem;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
